@@ -1076,8 +1076,10 @@ input, select, textarea {
 		}
 
 			#header h1 a {
-				font-size: 0.7em;
-				color: #ffffff;
+				  font-size: 0.9em;
+				  font-weight: 900;
+				  letter-spacing: 0.3em;
+				  color: #ffffff;
 			}
 
 		#header .links {
@@ -1410,3 +1412,15 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 			#menu > * { padding: 1.5em; }
 		}
+/* =====================
+   Custom Typography
+   ===================== */
+
+.post > header .title p {
+    font-family: "Playfair Display", Georgia, serif, ;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 0.5em;
+    color: #122d7e;
+    line-height: 1.8;
+}		
